@@ -1,4 +1,4 @@
-package practicagit.practicagitprogra.enums.PracticasDeEnums.src;
+package practicagitprogra.enums.PracticasDeEnums.src;
 
 public class FiguraGeometrica {
 

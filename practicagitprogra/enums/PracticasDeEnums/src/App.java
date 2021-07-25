@@ -1,3 +1,5 @@
+package practicagitprogra.enums.PracticasDeEnums.src;
+
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
@@ -7,7 +9,7 @@ public class App {
         
         int opcion = 1; //usuario lo ingreso
 
-        FiguraGeometrica figura = new FiguraGeometrica();
+        FiguraGeometrica figura = new FiguraGeometrica(opcion);
         
     }
 }

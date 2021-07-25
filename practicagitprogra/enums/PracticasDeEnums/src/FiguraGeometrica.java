@@ -19,4 +19,23 @@ public class FiguraGeometrica {
     public void setColor(int color){
         this.color = color;
     }
+
+
+    public void imprimirDatos() {
+        switch (color) {
+            case AMARILLO:
+                System.out.println("Amarillo");
+                break;
+            case AZUL:
+                System.out.println("Azul");
+                break;
+            case ROJO:
+                System.out.println("Rojo");
+                break;
+            default:
+                throw new AssertionError();
+
+        }
+    }
+
 }

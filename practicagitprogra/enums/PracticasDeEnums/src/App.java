@@ -11,5 +11,7 @@ public class App {
 
         FiguraGeometrica figura = new FiguraGeometrica(opcion);
         
+        figura.imprimirDatos();
+        
     }
 }

@@ -9,7 +9,7 @@ public class App {
         
         int opcion = 1; //usuario lo ingreso
 
-        FiguraGeometrica figura = new FiguraGeometrica(Color.valueOf(opcion));
+        FiguraGeometrica figura = new FiguraGeometrica(opcion);
         
         figura.imprimirDatos();
         
